@@ -2,10 +2,10 @@ from flask import Flask, jsonify, request, render_template, redirect
 import requests
 from uuid import uuid4
 from urllib.parse import urlparse
-from blockchain import Blockchain
+# from blockchain import Blockchain
 
 from controllers.blockchain import *
-hello()
+
 # Create Flask app
 app = Flask(__name__)
 
